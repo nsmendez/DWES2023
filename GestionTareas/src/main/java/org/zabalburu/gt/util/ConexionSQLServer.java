@@ -1,6 +1,7 @@
 package org.zabalburu.gt.util;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 
 import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
 
