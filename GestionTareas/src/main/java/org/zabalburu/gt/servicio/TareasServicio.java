@@ -3,13 +3,14 @@ package org.zabalburu.gt.servicio;
 import java.util.List;
 
 import org.zabalburu.gt.dao.TareasDAO;
+import org.zabalburu.gt.dao.TareasJPA;
 import org.zabalburu.gt.dao.TareasList;
 import org.zabalburu.gt.dao.TareasSQLServer;
 import org.zabalburu.gt.modelo.Empleado;
 import org.zabalburu.gt.modelo.Tarea;
 
 public class TareasServicio implements TareasDAO{
-	private TareasDAO dao = TareasSQLServer.getInstance();
+	private TareasDAO dao = TareasJPA.getInstance();
 	
 	private static TareasServicio tareasServicio;
 	

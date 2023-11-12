@@ -32,7 +32,13 @@
 		<dependency>
 		    <groupId>com.microsoft.sqlserver</groupId>
 		    <artifactId>mssql-jdbc</artifactId>
-		    <version>12.4.1.jre11</version>
+		    <version>12.4.2.jre11</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core-jakarta -->
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core-jakarta</artifactId>
+		    <version>5.6.15.Final</version>
 		</dependency>
 		<dependency>
 		    <groupId>org.projectlombok</groupId>
@@ -40,7 +46,6 @@
 		    <version>1.18.26</version>
 		    <scope>provided</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
